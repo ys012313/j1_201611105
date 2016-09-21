@@ -1,0 +1,12 @@
+mySub.run()
+class Subway {
+   int line;
+   void run() {System.out.println (line + "lines runs");
+   }
+   void setline(int l) {
+     line=1;
+   }
+}
+Subway mySub=new Subway();
+mySub.setline(1);
+mySub.run();
