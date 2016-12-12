@@ -1,6 +1,6 @@
 package com.sd.project;
 
-public class Throw {
+public class Dice {
     private int number=0;
     public void roll() {
        number=(int) (Math.random() * 7+1);
