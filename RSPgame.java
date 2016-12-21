@@ -41,10 +41,10 @@ class RSPgame {
     for(String s1:game) {
       for (String s2:game) {
         if(s1.equals(s2)) {
-          System.out.printf("sel1 = %s  sel2 = %s ---> result is %s\n",s1,s2,r.rsp(s1,s2));
+          System.out.printf("sel1 = %s  sel2 = %s The result is %s\n",s1,s2,r.rsp(s1,s2));
         }
         else {
-          System.out.printf("sel1 = %s  sel2 = %s ---> winner is %s\n",s1,s2,r.rsp(s1,s2));
+          System.out.printf("sel1 = %s  sel2 = %s The winner is %s\n",s1,s2,r.rsp(s1,s2));
         }
       }
     }
