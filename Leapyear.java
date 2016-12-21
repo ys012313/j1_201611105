@@ -1,4 +1,4 @@
-class Leapyear{
+class Leapyear {
 	int year;
 	void findyear(int year){
 		if ((year%4==0) && (year%100!=0)||(year%400==0)) {
